@@ -6,7 +6,7 @@ A demo contract to offer bid for a custom list of tokenIds through merkle root
 
 ### Problem
 
-There is not yet a way for a bidder to bid for a specific list of NFT within a collection, they can only make collection offer; or individual offer.
+There is not yet a way for a bidder to bid for a specific list of NFT within a collection, so far they can only make collection offer; or individual offer in most NFT marketplaces
 
 ### Solution
 
