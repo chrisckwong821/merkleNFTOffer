@@ -10,7 +10,7 @@ There is not yet a way for a bidder to bid for a specific list of NFT within a c
 
 ### Solution
 
-1. Allow bidder to sign an offer with a merkle root, which comes from hashes of a custom list of tokenIds. This list consists of the Ids that The bidder is willing to accept.
+1. Allow bidder to sign an offer with a merkle root, which is constructed from hashes of a custom list of tokenIds. This list consists of the Ids that The bidder is willing to accept.
 
 2. Seller has to provide a merkle proof when accepting this offer.
 
