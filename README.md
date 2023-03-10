@@ -24,7 +24,9 @@ Bidder commit an offer of 1 ether for this list, represented in a root (0x7a0125
 Seller A wants to sell his NFT with tokenId 2. He then construct a merkle proof from the position (1), together with tokenId to take this offer
 
 acceptOffer(tokenId 2, merkleProof 
-0x0000000000000000000000000000000000000000000000000000000000000001,0x2e174c10e159ea99b867ce3205125c24a42d128804e4070ed6fcc8cc98166aa0,0xfe61ef965cf1e53f5466e990b0025336f1fc98844e4eaec8566fe3cbdaf18ef3])
+[0x0000000000000000000000000000000000000000000000000000000000000001,0x2e174c10e159ea99b867ce3205125c24a42d128804e4070ed6fcc8cc98166aa0,0xfe61ef965cf1e53f5466e990b0025336f1fc98844e4eaec8566fe3cbdaf18ef3])
+
+The merkle proof would be recursively hashed to only 1 node which gets compared to the root commited by the bidder, using standard merkle tree algorithm.
 
 Seller B has only tokenId 6, he would have no ways to accept this offer.
 
