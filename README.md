@@ -1,5 +1,6 @@
 ## TraitbasedNFTOffer
-[![tests](https://github.com/chrisckwong821/TraitbasedNFTOffer/actions/workflows/unitTest.yml/badge.svg)](https://github.com/chrisckwong821/TraitbasedNFTOffer/actions/workflows/unitTest.yml)
+[![tests](https://github.com/chrisckwong821/merkleNFTOffer/actions/workflows/unittest.yml/badge.svg)](https://github.com/chrisckwong821/merkleNFTOffer/actions/workflows/unittest.yml)
+
 
 A demo contract to offer bid for a custom list of tokenIds through merkle root
 
